@@ -107,8 +107,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/imaginify.git
-cd imaginify
+git clone https://github.com/Bhoomika-R/PhotoShop.git
+cd photoshop
 ```
 
 **Installation**
@@ -1922,7 +1922,7 @@ export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
       secure: true,
     })
 
-    let expression = 'folder=nify';
+    let expression = 'folder=photoshop';
 
     if (searchQuery) {
       expression += ` AND ${searchQuery}`
